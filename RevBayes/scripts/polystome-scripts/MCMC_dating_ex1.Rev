@@ -1,0 +1,82 @@
+########################################################
+#
+# RevBayes Example: Molecular dating
+# 
+# This file: Runs the full MCMC for exercise 1
+#
+# authors: Rachel C. M. Warnock, Sebastian Hoehna
+#
+########################################################
+
+########################################################
+#
+# Exercise 1: the global molecular clock model
+#
+########################################################
+
+
+#######################
+# Reading in the Data #
+#######################
+
+# Import the molecular sequences #
+# this file contains only the taxa for which sequence data are available #
+cytb <- readDiscreteCharacterData("data/Nucelar_18s_28s_use.nex")
+
+## helpers
+n_taxa <- cytb[1].size()
+taxa <- cytb[1].taxa()
+n_parts = cytb.size()
+
+# Create some vector for the moves and monitors of this analysis
+moves    = VectorMoves()
+monitors = VectorMonitors()
+
+# Load the model files
+
+source("scriptsBadet/tree_BD.Rev") # BD tree prior
+
+source("scriptsBadet/clock_relaxed_lognormal.Rev") # Global clock model
+
+source("scriptsBadet/sub_GTRG.Rev") # Molecular substitution model (GTR+G)
+
+
+
+########
+# MCMC #
+########
+
+# initialize the model object #
+mymodel = model(sf)	
+
+
+# Create a vector of monitors #
+# 1. for the full model #
+monitors.append( mnModel(filename="outputBadet/parasiteBadet.log", printgen=20) )
+
+# 2. the tree #
+monitors.append( mnFile(filename="outputBadet/parasiteBadet.trees", printgen=20, timetree) )
+
+# 3. and a few select parameters to be printed to the screen #
+monitors.append( mnScreen(printgen=100, extant_mrca, diversification) )
+
+# Initialize the MCMC object #
+mymcmc = mcmc(mymodel, monitors, moves, nruns=2, combine="mixed")
+
+# Run the MCMC #
+mymcmc.run(generations=100000, tuningInterval=1000)
+
+
+
+########################
+# Summarizing the tree #
+########################
+
+# Read the trace file #
+trace = readTreeTrace("outputBadet/parasiteBadet.trees")
+
+# Maximum clade credibility tree #
+mccTree(trace, file="outputBadet/parasiteBadet.mcc.tre" )
+
+# Quit RevBayes #
+#q()

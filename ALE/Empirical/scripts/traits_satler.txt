@@ -1,0 +1,11 @@
+#GT ST
+bullenei	bullenei
+citrifolia	citrifolia
+costaricana	costaricana	
+nymphaeifolia	nymphaeifolia
+obtusifolia_A	obtusifolia
+obtusifolia_B	obtusifolia
+paraensis	paraensis
+popenoei	popenoei
+triangulo	triangle
+trigonata	trigonata

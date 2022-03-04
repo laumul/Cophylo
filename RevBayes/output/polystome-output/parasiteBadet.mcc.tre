@@ -1,0 +1,28 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=17;
+	Taxlabels
+		Diplorchis_ranae
+		Eupolystoma_Alluaudi
+		Eupolystoma_sp1
+		Parapolystoma_sp
+		Polystoma_cuvieri
+		Polystoma_dawiekokis
+		Polystoma_indicum
+		Polystoma_integerrimum
+		Polystoma_lopezromani
+		Polystoma_marmorati
+		Polystoma_naevius
+		Polystoma_nearcticum
+		Polystoma_sp2
+		Polystoma_spHC
+		Polystoma_spRA
+		Polystoma_spRO
+		Polystoma_testimagna
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((Polystoma_marmorati[&index=12]:2.906165,Polystoma_testimagna[&index=14]:2.906165)[&index=18,posterior=1.000000,age_95%_HPD={0.514274,5.89117}]:13.166539,Polystoma_dawiekokis[&index=17]:16.072704)[&index=19,posterior=1.000000,age_95%_HPD={7.41505,25.9629}]:14.508916,Polystoma_integerrimum[&index=6]:30.581620)[&index=20,posterior=1.000000,age_95%_HPD={16.7312,45.433}]:15.128879,((Polystoma_cuvieri[&index=7]:2.446273,Polystoma_sp2[&index=15]:2.446273)[&index=21,posterior=1.000000,age_95%_HPD={0.275857,5.41083}]:34.837223,Polystoma_lopezromani[&index=9]:37.283495)[&index=22,posterior=0.952813,age_95%_HPD={18.0631,57.2144}]:8.427004)[&index=23,posterior=0.950680,age_95%_HPD={28.0598,65.6326}]:5.075016,((Polystoma_nearcticum[&index=16]:6.636604,Polystoma_spHC[&index=4]:6.636604)[&index=24,posterior=1.000000,age_95%_HPD={1.98238,12.4042}]:19.610877,Polystoma_naevius[&index=8]:26.247481)[&index=25,posterior=1.000000,age_95%_HPD={11.9521,42.3201}]:24.538034)[&index=26,posterior=0.998800,age_95%_HPD={32.3244,72.1959}]:29.379280,(((Polystoma_spRA[&index=3]:2.754190,Polystoma_spRO[&index=11]:2.754190)[&index=27,posterior=0.983071,age_95%_HPD={0.394015,6.11941}]:5.353749,Polystoma_indicum[&index=2]:8.107939)[&index=28,posterior=1.000000,age_95%_HPD={2.19393,14.9026}]:55.999010,(Diplorchis_ranae[&index=13]:26.942744,Parapolystoma_sp[&index=1]:26.942744)[&index=29,posterior=1.000000,age_95%_HPD={11.5212,44.0541}]:37.164205)[&index=30,posterior=0.990403,age_95%_HPD={39.3362,88.6957}]:16.057846)[&index=31,posterior=0.607038,age_95%_HPD={60.4974,99.9653}]:19.835206,(Eupolystoma_Alluaudi[&index=5]:54.576919,Eupolystoma_sp1[&index=10]:54.576919)[&index=32,posterior=0.990669,age_95%_HPD={26.9042,81.0211}]:45.423082)[&index=33,posterior=1.000000,age_95%_HPD={100,100}]:0.000000;
+End;

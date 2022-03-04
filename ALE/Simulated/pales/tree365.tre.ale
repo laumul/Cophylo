@@ -1,0 +1,243 @@
+#constructor_string
+(((Rhacophorusarboreus_Polystoma_spRA:2.100677439,((Hylaversicolor_Polystoma_nearcticum:0.04816272591,Buforegularis_Eupolystoma_Alluaudi:0.04816272591):0.7614398539,(Schismadermacarens_Eupolystoma_sp1:0.355053495,(Physalaemuscuvieri_Polystoma_cuvieri:0.2188374819,Rhacophorusmaximus_Polystoma_indicum:0.2188374819):0.1362160131):0.4545490849):1.291074859):4.06144318,(Litoriagracilenta_Parapolystoma_sp:2.247015928,(Ptychadenaanchietae_Polystoma_dawiekokis:1.927334888,Rhacophorusomeimontis_Polystoma_spRO:1.927334888):0.3196810395):3.915104691):2.678815981,((((Phrynohyasvenulosa_Polystoma_lopezromani:1.747498818,Ranatemporaria_Polystoma_integerrimum:1.747498818):0.9556909272,(Strongylopusfasciatus_Polystoma_testimagna:1.299274915,Smiliscabaudinii_Polystoma_naevius:1.299274915):1.403914831):1.143668879,Leptodactylusmystaceus_Polystoma_sp2:3.846858624):0.2298546034,((Hylacinerea_Polystoma_spHC:0.9726203594,Ranarugosa_Diplorchis_ranae:0.9726203594):2.623107889,Hyperoliusviridiflavus_Polystoma_marmorati:3.595728248):0.4809849789):4.764223372):3.696849277;
+#observations
+1
+#Bip_counts
+18	1
+19	1
+20	1
+21	1
+22	1
+23	1
+24	1
+25	1
+26	1
+27	1
+28	1
+29	1
+30	1
+31	1
+32	1
+33	1
+34	1
+35	1
+36	1
+37	1
+38	1
+39	1
+40	1
+41	1
+42	1
+43	1
+44	1
+45	1
+46	1
+47	1
+48	1
+49	1
+50	1
+51	1
+52	1
+53	1
+54	1
+55	1
+56	1
+57	1
+58	1
+59	1
+60	1
+61	1
+62	1
+#Bip_bls
+1	2.10068
+2	1.92733
+3	1.92733
+4	3.84686
+5	1.7475
+6	0.97262
+7	0.355053
+8	0.0481627
+9	0.0481627
+10	2.24702
+11	0.218837
+12	0.218837
+13	1.29927
+14	1.29927
+15	1.7475
+16	0.97262
+17	3.59573
+18	0.76144
+19	0.955691
+20	2.62311
+21	0.136216
+22	0.319681
+23	3.9151
+24	1.40391
+25	0.480985
+26	1.14367
+27	0.229855
+28	0.454549
+29	7.44304
+30	4.06144
+31	1.29107
+32	1.29107
+33	0.76144
+34	0.454549
+35	0.0481627
+36	0.0481627
+37	0.355053
+38	0.136216
+39	0.218837
+40	0.218837
+41	4.06144
+42	2.10068
+43	7.44304
+44	3.9151
+45	0.480985
+46	0.229855
+47	2.24702
+48	0.319681
+49	2.62311
+50	3.59573
+51	0.97262
+52	0.97262
+53	1.14367
+54	3.84686
+55	1.92733
+56	1.92733
+57	0.955691
+58	1.40391
+59	1.7475
+60	1.7475
+61	1.29927
+62	1.29927
+#Dip_counts
+18	8	9	1
+19	5	15	1
+20	6	16	1
+21	11	12	1
+22	2	3	1
+23	10	22	1
+24	13	14	1
+25	17	20	1
+26	19	24	1
+27	4	26	1
+28	7	21	1
+29	25	27	1
+30	23	29	1
+31	1	30	1
+32	18	28	1
+33	28	31	1
+34	18	31	1
+35	9	33	1
+36	8	33	1
+37	21	34	1
+38	7	34	1
+39	12	38	1
+40	11	38	1
+41	1	32	1
+42	30	32	1
+43	23	41	1
+44	29	41	1
+45	27	43	1
+46	25	43	1
+47	22	44	1
+48	10	44	1
+49	17	45	1
+50	20	45	1
+51	16	49	1
+52	6	49	1
+53	4	46	1
+54	26	46	1
+55	3	48	1
+56	2	48	1
+57	24	53	1
+58	19	53	1
+59	15	57	1
+60	5	57	1
+61	14	58	1
+62	13	58	1
+#last_leafset_id
+62
+#leaf-id
+Buforegularis_Eupolystoma_Alluaudi	3
+Hylacinerea_Polystoma_spHC	15
+Hylaversicolor_Polystoma_nearcticum	2
+Hyperoliusviridiflavus_Polystoma_marmorati	17
+Leptodactylusmystaceus_Polystoma_sp2	14
+Litoriagracilenta_Parapolystoma_sp	7
+Phrynohyasvenulosa_Polystoma_lopezromani	10
+Physalaemuscuvieri_Polystoma_cuvieri	5
+Ptychadenaanchietae_Polystoma_dawiekokis	8
+Ranarugosa_Diplorchis_ranae	16
+Ranatemporaria_Polystoma_integerrimum	11
+Rhacophorusarboreus_Polystoma_spRA	1
+Rhacophorusmaximus_Polystoma_indicum	6
+Rhacophorusomeimontis_Polystoma_spRO	9
+Schismadermacarens_Eupolystoma_sp1	4
+Smiliscabaudinii_Polystoma_naevius	13
+Strongylopusfasciatus_Polystoma_testimagna	12
+#set-id
+1	:	1
+8	:	2
+9	:	3
+18	:	2	3
+7	:	4
+11	:	5
+12	:	6
+21	:	5	6
+28	:	4	5	6
+32	:	2	3	4	5	6
+41	:	1	2	3	4	5	6
+10	:	7
+2	:	8
+3	:	9
+22	:	8	9
+23	:	7	8	9
+43	:	1	2	3	4	5	6	7	8	9
+5	:	10
+15	:	11
+19	:	10	11
+13	:	12
+14	:	13
+24	:	12	13
+26	:	10	11	12	13
+4	:	14
+27	:	10	11	12	13	14
+45	:	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+6	:	15
+16	:	16
+20	:	15	16
+50	:	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+17	:	17
+49	:	1	2	3	4	5	6	7	8	9	10	11	12	13	14	17
+52	:	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	17
+51	:	1	2	3	4	5	6	7	8	9	10	11	12	13	14	16	17
+25	:	15	16	17
+46	:	1	2	3	4	5	6	7	8	9	15	16	17
+54	:	1	2	3	4	5	6	7	8	9	10	11	12	13	15	16	17
+53	:	1	2	3	4	5	6	7	8	9	14	15	16	17
+58	:	1	2	3	4	5	6	7	8	9	10	11	14	15	16	17
+62	:	1	2	3	4	5	6	7	8	9	10	11	12	14	15	16	17
+61	:	1	2	3	4	5	6	7	8	9	10	11	13	14	15	16	17
+57	:	1	2	3	4	5	6	7	8	9	12	13	14	15	16	17
+60	:	1	2	3	4	5	6	7	8	9	10	12	13	14	15	16	17
+59	:	1	2	3	4	5	6	7	8	9	11	12	13	14	15	16	17
+29	:	10	11	12	13	14	15	16	17
+44	:	1	2	3	4	5	6	10	11	12	13	14	15	16	17
+48	:	1	2	3	4	5	6	7	10	11	12	13	14	15	16	17
+56	:	1	2	3	4	5	6	7	8	10	11	12	13	14	15	16	17
+55	:	1	2	3	4	5	6	7	9	10	11	12	13	14	15	16	17
+47	:	1	2	3	4	5	6	8	9	10	11	12	13	14	15	16	17
+30	:	7	8	9	10	11	12	13	14	15	16	17
+31	:	1	7	8	9	10	11	12	13	14	15	16	17
+34	:	1	2	3	7	8	9	10	11	12	13	14	15	16	17
+38	:	1	2	3	4	7	8	9	10	11	12	13	14	15	16	17
+40	:	1	2	3	4	5	7	8	9	10	11	12	13	14	15	16	17
+39	:	1	2	3	4	6	7	8	9	10	11	12	13	14	15	16	17
+37	:	1	2	3	5	6	7	8	9	10	11	12	13	14	15	16	17
+33	:	1	4	5	6	7	8	9	10	11	12	13	14	15	16	17
+36	:	1	2	4	5	6	7	8	9	10	11	12	13	14	15	16	17
+35	:	1	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17
+42	:	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17
+#END

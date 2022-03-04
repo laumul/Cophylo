@@ -1,0 +1,30 @@
+#NEXUS
+BEGIN HOST; 
+	TREE * Host1 = (((((((((Hylacinerea:8.167342,Hylaversicolor:8.167342):6.915422,Smiliscabaudinii:15.082763):7.573827,Phrynohyasvenulosa:22.65659):9.071659,(Leptodactylusmystaceus:27.347184,Litoriagracilenta:27.347184):4.381065):6.214826,(Buforegularis:18.543018,Schismadermacarens:18.543018):19.400056):6.858584,Physalaemuscuvieri:44.801659):27.363652,((((Rhacophorusarboreus:6.654133,Rhacophorusomeimontis:6.654133):6.43348,Rhacophorusmaximus:13.087613):33.209409,(Ranarugosa:24.54401,Ranatemporaria:24.54401):21.753012):6.981051,Strongylopusfasciatus:53.278073):18.887238):1.13055,Ptychadenaanchietae:73.295861):22.001277,Hyperoliusviridiflavus:95.297138);
+ENDBLOCK; 
+ 
+BEGIN PARASITE;
+	TREE * Para1 = (((((((Polystoma_marmorati:5.295784,Polystoma_testimagna:5.295784):23.954749,Polystoma_dawiekokis:29.250533):26.49378,Polystoma_integerrimum:55.744313):27.78885,((Polystoma_cuvieri:4.479877,Polystoma_sp2:4.479877):63.21052,Polystoma_lopezromani:67.690397):15.842765):9.354981,((Polystoma_nearcticum:12.15516,Polystoma_spHC:12.15516):35.672982,Polystoma_naevius:47.828142):45.060002):53.875515,(((Polystoma_spRA:5.061006,Polystoma_spRO:5.061006):9.760441,Polystoma_indicum:14.821447):102.648042,(Diplorchis_ranae:49.514011,Parapolystoma_sp:49.514011):67.955478):29.294169):38.205437,(Eupolystoma_Alluaudi:100.392004,Eupolystoma_sp1:100.392004):84.577091);
+	ENDBLOCK; 
+ 
+BEGIN DISTRIBUTION; 
+	RANGE 
+		Eupolystoma_Alluaudi: Buforegularis,
+		Polystoma_spHC: Hylacinerea,
+        Polystoma_nearcticum: Hylaversicolor,
+        Polystoma_marmorati: Hyperoliusviridiflavus,
+        Polystoma_sp2: Leptodactylusmystaceus,
+        Parapolystoma_sp: Litoriagracilenta,
+        Polystoma_lopezromani: Phrynohyasvenulosa,
+        Polystoma_cuvieri: Physalaemuscuvieri,
+        Polystoma_dawiekokis: Ptychadenaanchietae,
+		Diplorchis_ranae: Ranarugosa,
+		Polystoma_integerrimum: Ranatemporaria,
+		Polystoma_spRA: Rhacophorusarboreus,
+		Polystoma_indicum: Rhacophorusmaximus,
+		Polystoma_spRO: Rhacophorusomeimontis,
+		Eupolystoma_sp1: Schismadermacarens,
+		Polystoma_naevius: Smiliscabaudinii,
+		Polystoma_testimagna: Strongylopusfasciatus,		
+			; 
+END;

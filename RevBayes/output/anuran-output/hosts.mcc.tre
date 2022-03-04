@@ -1,0 +1,28 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=17;
+	Taxlabels
+		Bufo_regularis
+		Hyla_cinerea
+		Hyla_versicolor
+		Hyperolius_viridiflavus
+		Leptodactylus_mystaceus
+		Litoria_gracilenta
+		Phrynohyas_venulosa
+		Physalaemus_cuvieri
+		Ptychadena_anchietae
+		Rana_rugosa
+		Rana_temporaria
+		Rhacophorus_arboreus
+		Rhacophorus_maximus
+		Rhacophorus_omeimontis
+		Schismaderma_carens
+		Smilisca_baudinii
+		Strongylopus_fasciatus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R](((((((((Hyla_cinerea[&index=15]:8.167342,Hyla_versicolor[&index=16]:8.167342)[&index=18,posterior=1.000000,age_95%_HPD={3.24868,14.431}]:6.915422,Smilisca_baudinii[&index=6]:15.082763)[&index=19,posterior=0.999867,age_95%_HPD={6.71125,25.8559}]:7.573827,Phrynohyas_venulosa[&index=2]:22.656590)[&index=20,posterior=0.993069,age_95%_HPD={10.3644,38.8562}]:9.071659,(Leptodactylus_mystaceus[&index=9]:27.347184,Litoria_gracilenta[&index=7]:27.347184)[&index=21,posterior=0.584377,age_95%_HPD={11.8037,45.6829}]:4.381065)[&index=22,posterior=0.864303,age_95%_HPD={15.1444,52.2626}]:6.214826,(Bufo_regularis[&index=10]:18.543018,Schismaderma_carens[&index=8]:18.543018)[&index=23,posterior=1.000000,age_95%_HPD={7.29343,31.8867}]:19.400056)[&index=24,posterior=0.801253,age_95%_HPD={17.7648,61.6024}]:6.858584,Physalaemus_cuvieri[&index=11]:44.801659)[&index=25,posterior=1.000000,age_95%_HPD={21.3963,73.5427}]:27.363652,((((Rhacophorus_arboreus[&index=5]:6.654133,Rhacophorus_omeimontis[&index=13]:6.654133)[&index=26,posterior=0.994801,age_95%_HPD={2.36435,12.2731}]:6.433480,Rhacophorus_maximus[&index=17]:13.087613)[&index=27,posterior=1.000000,age_95%_HPD={5.67716,22.6447}]:33.209409,(Rana_rugosa[&index=4]:24.544010,Rana_temporaria[&index=12]:24.544010)[&index=28,posterior=1.000000,age_95%_HPD={10.3224,42.2292}]:21.753012)[&index=29,posterior=0.672621,age_95%_HPD={22.5943,76.7032}]:6.981051,Strongylopus_fasciatus[&index=1]:53.278073)[&index=30,posterior=0.999867,age_95%_HPD={26.2045,87.8388}]:18.887238)[&index=31,posterior=0.424154,age_95%_HPD={37.1176,115.048}]:1.130550,Ptychadena_anchietae[&index=3]:73.295861)[&index=32,posterior=0.730738,age_95%_HPD={37.8897,114.722}]:22.001277,Hyperolius_viridiflavus[&index=14]:95.297138)[&index=33,posterior=1.000000,age_95%_HPD={66.022,138.697}]:0.000000;
+End;
